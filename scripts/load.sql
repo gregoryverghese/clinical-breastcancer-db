@@ -1,0 +1,6 @@
+LOAD DATA LOCAL INFILE 'ln_file_locations.csv' 
+INTO TABLE ln_file_locations 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
